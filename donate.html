@@ -2,10 +2,24 @@
 <html>
 <head>
   <title>Donate</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <h1>Use the procedure below to Donate your contributions</h1>
+<body >
+    <header>
+    <h1>Use the procedure below to Donate your contributions</h1>
+    <nav>
+      <ul>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Programs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  
 
   <section>
     <h3>M-PESA</h3>
@@ -21,21 +35,32 @@
   </section>
 
   <hr>
+<h1>OR</h1>
+<section>
+  <form id="paymentForm">
+  <label for="number">M-PESA Number:</label>
+  <input type="text" id="number" name="number" required>
+  <span id="numberError" class="error"></span>
+  <br><br>
 
-  <section id="form">
-    <label for="number">Enter M-PESA mobile number :</label>
-    <input type="number" id="number" placeholder="07xxxxxxxx or 01xxxxxxxx"> <br>
+  <label for="amount">Amount (KSH):</label>
+  <input type="number" id="amount" name="amount" required>
+  <span id="amountError" class="error"></span>
+  <br><br>
 
-    <label for="amount">Enter Amount :</label>
-    <input type="number" id="amount" placeholder="More than 1 shilling"> <br>
+  <button id="form">Send Payment</button>
+</form>
 
-    <button>Send</button>
-  </section>
+<div id="overlay">
+  <div class="spinner"></div>
+  <p>Processing your donation...</p>
+</div>
+</section>
 
   <article id="article">
-    You will recieve a prompt on the entered mobile number, just key in your M-Pesa Pin and press send/OK
+    You will receive a prompt on the entered mobile number, just key in your M-Pesa Pin and press send/OK
   </article>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

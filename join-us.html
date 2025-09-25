@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Green Chepalungu as a member or volunteer to support environmental conservation in Bomet County.">
+  <title>Join Us</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <h1>Want to be a part of Green Chepalungu?</h1>
+    <nav>
+      <ul>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Programs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Join Us</h2>
+      <p>Become a part of Green Chepalungu and contribute to a greener and more sustainable future. You can join as a member or volunteer.</p>
+
+      <form id="joinForm">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="role">I want to join as:</label>
+        <select id="role" name="role" required>
+          <option value="">--Select an option--</option>
+          <option value="member">Member</option>
+          <option value="volunteer">Volunteer</option>
+        </select>
+
+        <label for="reason">Why do you want to join?</label>
+        <textarea id="reason" name="reason" rows="4" required></textarea>
+
+        <button type="submit">Join Now</button>
+      </form>
+
+      <p id="joinResponse" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Green Chepalungu. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
