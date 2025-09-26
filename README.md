@@ -1,90 +1,130 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🌱 Green Chepalungu Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+Welcome to the official repository for **Green Chepalungu**, a community-based organization dedicated to environmental conservation in Bomet County, Kenya.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## 🚀 Live Demo
 
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+[View the deployed site](https://isaacronoh.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/)
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📚 Project Overview
 
-Using your plan, begin building:
+This is a multi-page, responsive website built as a final project for the PLP Web Technologies course. It showcases Green Chepalungu’s mission, programs, gallery, and provides interactive forms for joining and donating.
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+**Purpose:**  
+- Raise awareness about environmental conservation.
+- Enable community members to join or support Green Chepalungu.
+- Share updates, events, and gallery images.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 🗂️ Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
+```
+about.html
+contactus.html
+donate.html
+events.html
+gallery.html
+index.html
+join-us.html
+css/
+  styles.css
+images/
+  gc logo.jpeg
+  gc_bg.jpg
+js/
+  script.js
+.vscode/
+  launch.json
+README.md
+```
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- **index.html**: Landing page with hero section and navigation.
+- **about.html**: Organization background, mission, vision, and achievements.
+- **events.html**: List of ongoing and past programs.
+- **gallery.html**: Image gallery of activities.
+- **join-us.html**: Membership/volunteer registration form.
+- **donate.html**: Donation instructions and interactive payment form.
+- **contactus.html**: Contact form for inquiries.
 
 ---
 
-## Outcome
+## 🖥️ Technologies Used
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+- **HTML5**: Semantic structure for all pages.
+- **CSS3**: Custom styles in [`css/styles.css`](css/styles.css) and Tailwind CSS for the landing page.
+- **JavaScript**: Interactive features in [`js/script.js`](js/script.js) (form validation, spinners, toggles).
+- **Font Awesome**: Social icons.
+- **Google Fonts**: Typography.
+
+---
+
+## ✨ Features
+
+- **Responsive Design**: Works on mobile, tablet, and desktop.
+- **Consistent Layout**: Shared header/footer across all pages.
+- **Interactive Forms**:  
+  - Join Us: Validates required fields, shows confirmation.
+  - Donate: Validates M-PESA number and amount, shows spinner overlay.
+  - Contact Us: Validates fields, displays thank-you message.
+- **Animated Elements**: Fade-in effects on landing page.
+- **Gallery**: Grid layout with image hover effects.
+- **Programs List**: Highlights current and past initiatives.
+
+---
+
+## 📝 How to Run Locally
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/Isaacronoh/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
+   cd plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl
+   ```
+2. **Open `index.html` in your browser.**
+   - Or use VS Code’s Live Server extension for hot reload.
+
+---
+
+## 🛠️ Development & Customization
+
+- **Edit styles:** [`css/styles.css`](css/styles.css)
+- **Add images:** [`images/`](images/)
+- **Modify scripts:** [`js/script.js`](js/script.js)
+- **Update content:** Edit the respective `.html` files.
+
+---
+
+## 🌐 Deployment
+
+- Hosted on **GitHub Pages**.
+- To redeploy, push changes to the `main` branch.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+- Fork the repo, create a branch, and submit your changes.
+
+---
+
+## 📧 Contact
+
+- Email: info@greenchepalungu.org
+- Facebook: [Green Chepalungu](https://web.facebook.com/GreenChepalungu)
+
+---
+
+## 🏆 Credits
+
+- Project by [Isaac Ronoh](https://github.com/Isaacronoh)
+- Images and content © Green Chepalungu
+
+---
+
+## 📄 License
+
+This project is for educational and community use.  
+See [LICENSE](LICENSE) for details (add if needed).
